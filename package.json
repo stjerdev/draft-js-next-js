@@ -1,0 +1,50 @@
+{
+  "name": "editor",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.8.1",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/styles": "^4.7.1",
+    "@smooth-ui/core-sc": "11.1.5",
+    "@types/draft-js": "0.10.38",
+    "@types/node": "^13.1.5",
+    "@zeit/next-css": "^1.0.1",
+    "clsx": "1.0.4",
+    "dateformat": "^3.0.3",
+    "draft-js": "0.11.4",
+    "draft-js-mention-plugin": "3.1.5",
+    "draft-js-plugins-editor": "3.0.0",
+    "draft-js-static-toolbar-plugin": "3.0.1",
+    "draft-js-buttons": "^2.0.2",
+    "next": "latest",
+    "next-with-typescript": "^1.0.0",
+    "next-compose-plugins": "^2.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "webpack": "4.41.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.0",
+    "@types/react": "^16.9.17",
+    "typescript": "^3.7.4",
+    "tslint": "^5.20.1",
+    "prettier": "1.19.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^9.0.0",
+    "tslint-plugin-prettier": "^2.1.0",
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.2"
+  },
+  "license": "ISC",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
